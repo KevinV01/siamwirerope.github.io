@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รายการเครื่องจักร - บริษัท สยามไวร์โรพ จำกัด</title>
+    <!-- Tailwind CSS for a clean, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for the Inter font, which supports Thai characters -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <div class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
+        <!-- Main Content Area -->
+        <div class="max-w-6xl w-full space-y-8">
+            <!-- Header Section -->
+            <header class="text-center space-y-4">
+                <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+                    รายการเครื่องจักร บริษัท สยามไวร์โรพ จำกัด
+                </h1>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    ข้อมูลล่าสุด ณ วันที่ 8 กันยายน 2566
+                </p>
+                <!-- Search Bar -->
+                <div class="relative mt-8">
+                    <input type="text" id="machine-search" placeholder="ค้นหาเครื่องจักร..." class="w-full px-5 py-3 border border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200">
+                    <svg class="absolute right-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.099l4.551 4.55a.5.5 0 11-.707.708l-4.55-4.55A7 7 0 012 9z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </header>
+
+            <!-- Machine Grid Section -->
+            <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-6" id="machine-grid">
+                
+                <!-- เครื่องตีเกลียว (Twisting Machines) -->
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczPZYh-FssxIslyYBOonQ0RXaKYFWQ4KFpX2A9FhdHi6JMMfJ6k-7ruOdbOLEfxLVmGd9hichJAZTRyuQ_t_MOUINjj4gIydekHAjgQ_VSdXQN3fv6mH9UUc8ZYqgTuN9gcijJfYW_idsh_3MbofbVAa=w546-h267-s-no-gm?authuser=0" alt="เครื่องตีเกลียว S10" X 24 L" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S10" X 24 L</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOEFaYYGVqqiRS8nK7VAXRLgSphNTZlvWkxCj8sWDUQasIXhkEpYDAiACUkMmf3RjypaVhxIJHh4Si2FvDT_R9njbOt10P9ToA046LEFg6E6P3KfhMqYg8pW0sTVPnKqLQSfjgt-meyJxr3zCvvxitY=w514-h479-s-no-gm?authuser=0" alt="เครื่องตีเกลียว S8" X6L" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S8" X6L</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMH94rH0EcoxsU14mwaowHGQCAYEUIkKEnkFtcq9OrgrpZ4LEZ-hMlCe10U1qsZ16kgAf16tyoOX216FYkCB388AvDi9Won6neJ16Jt9zu3d8ogJIKQO2f5K4pEXCrYLR4SKv5BLy0mcmRNjrl8PmYR=w523-h468-s-no-gm?authuser=0"เครื่องตีเกลียว S6" X 6L" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S6" X 6L</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOvU3GJzIkzZy0aYj7TFErxV6RXJokK2iXwmBzKrDBkvvGhFwBrMF7RUp8_lHLAYIS33qLaWC8ndfA0l3Bq0M3RP0-ziT86owaslr9EOmphlcBjFiq9-1rIC9iDYSyZ2UvFq_WfzdRqhQ4TjX-rbc7H=w529-h463-s-no?authuser=0" alt="เครื่องตีเกลียว S6" X 12 L" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S6" X 12 L</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOURHJgIH6V5MXKfp6Z1KvQr7WuICieBZkLxZj_WEJna5XRAQ1XlRiAgPMX3Ixnc7wgY1AJi-l-uxbMROJqzjsofeb6o-6VXXmSSCyUtCOzNS4lVkkN5AGidehsEEpKKs4zgKAskGyMsHwmaWoBZvN7=w472-h227-s-no?authuser=0" alt="เครื่องตีเกลียว S10" X6V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S10" X6V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMOnR85R4wBRyOm_rFq6p342LKhvgC7BQmQ7TP7gAszYsuIga29IBli4aigCoe2pzhqrkgYJIVbb7JNaRAjFk5aCw2_sEe2Y0F6cZqdqxRYwvSl-ouZdhXZOHL7L3r0YwqB3HYxNbigFQunI6VvBJGa=w469-h232-s-no?authuser=0" alt="เครื่องตีเกลียว S10" X 15 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S10" X 15 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczO7ysKhF7Hx95sJWU5Z5rdHemOT-W2bbruVDTN8Mi3o3KvfDRnxQItqahM6vkPoeV7HMtkLzse8DvX05-nZfhc4ig5fwZAyuQweBuS9KPUjcqzBByb6dQ6LdH-k8vmfMU4WFPCo439RZd0CG4U2Ick0=w586-h714-s-no?authuser=0" alt="เครื่องตีเกลียว S10" X 18 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S10" X 18 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOpRNwpnlS5fKiy9xb1XEEJGpk9fHqTnxAbl0r9zoixHgl8kYiMUcjFc-e9rElUwrQc1uq0Sya3YKQ3pMBOzHFUmwo8i3vS56KSG_lXuKvSk07SEXEbbgY3Thyd80IO4I_EjH9UrZ1Qxml-hFuMaABl=w335-h261-s-no?authuser=0" alt="เครื่องตีเกลียว S8" X 24 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S8" X 24 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOSlWylogtC9r_FbRpzrp8aezfIdIF57Wg22CYeCYVTAyF2jhi748ICa_MrGeSR_mrH3-gyCh835o4duEX1wu0lxK8rqtBYrvH48EtELnnvNn8_0vgqH0RHu6vzSvKlx4iRJ_W8Cz-lgba00hGjLxbf=w771-h762-s-no?authuser=0" alt="เครื่องตีเกลียว S4" X 6 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S4" X 6 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczNi07Y_v5FNDxmufglo7WJN15rtHkye8otObxAaG6YgxbzrdB1iLoEd8TbY-pWD9BSmzo1T9OO2PugN_n2_cJf-ZNhmpslwNeA2GS17pgB1buAmkKXQBtiBjWfEPhO6nqLU3d827csxCGLa2azvKbbh=w742-h648-s-no?authuser=0" alt="เครื่องตีเกลียว S4" X 12 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S4" X 12 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczPQWTG4Eip9PXnKzrezgKArBvxG-q_4yzWOsZcPXOEEqSp4pguQI9Uix8UvD83ty7ufFJ2ge7doQYYq6EWWDfmLZ-z8H0mh7pKOo8qA7crmEgJLn6ZbUKK7XqkMQ6nMcCEYUHYHttSUUlcSSDkPaCf9=w786-h781-s-no?authuser=0" alt="เครื่องตีเกลียว S6" X 6 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S6" X 6 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczM9GH4EZ5QvLddMSwyjl_QnDmJ261QLr-tgGgmrA7b_TZxtMryg2PfPICw4cHoxuFK3sZBQM04RaYms9iVMGLluSPKEkSRc9USZRXAFiivtBi9y6lcHddAwlZI9Y4n6bG4yejc5fMYFQtU-6wk0bI13=w556-h739-s-no?authuser=0" alt="เครื่องตีเกลียว S8" X 9-4 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S8" X 9-4 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczM9GH4EZ5QvLddMSwyjl_QnDmJ261QLr-tgGgmrA7b_TZxtMryg2PfPICw4cHoxuFK3sZBQM04RaYms9iVMGLluSPKEkSRc9USZRXAFiivtBi9y6lcHddAwlZI9Y4n6bG4yejc5fMYFQtU-6wk0bI13=w556-h739-s-no?authuser=0" alt="เครื่องตีเกลียว S8" X 9-3 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S8" X 9-3 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczM0awNxXqyD-v4evQiuTm--KfQyyPwIL6Je9lqaw9qL-fSvaYrnXVO-9XrQDbRjoAbmIWrCBN51U_50fRrpciphVsNrNam5zw_fwVdzzUUC1AtmhAJBF-y6iewzFmRvB2sqYK219UVsxu9W1cGDZwDi=w545-h710-s-no?authuser=0" alt="เครื่องตีเกลียว S8" X 9 - 2 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S8" X 9 - 2 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczPOn50ayacWEMXKSToe5uj9Oz_hwOTTiDjfZ6s5IsOsNBKUawTMhMivGz-YeE0eNCL19kjXO5X81xaOwKRK5xP9L8WPuqFOLEfyMIUMLSYHkG2qEZgPf3egmnd0XkK78Toe4Jl-XesZfqkul8xMATs3=w572-h668-s-no?authuser=0" alt="เครื่องตีเกลียว S8" X 25 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S8" X 25 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMXKWJAe3EEsR6_64rYiRjs-WpQLV5uLYFkhU2a0wuch1DNg2HuThOeiGhjDqAv43UN3baVXY0xd2mWpmEIzKovCbUMnKjfei3jyaxIzuac3H7N2UHnVHeh2HP1W8OpyHIGoUssDC5HnjEG60OWhl9Q=w520-h663-s-no?authuser=0" alt="เครื่องตีเกลียว S6" X 15 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S6" X 15 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMckep6Q8YEtbDaLOLQfUg0KV86Qi1H2TjlyVXYlP5owhpP_B2TVHHGoFzpknQz7P08bqgza3uRXu-ckjXSkGiwi-j9kgVzPv710KaQfq1-6qQpXpcRBoawNAp48WlQZqJJ7lw00ziwgG1cywoG6gIQ=w600-h656-s-no?authuser=0" alt="เครื่องตีเกลียว S6" X 9 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S6" X 9 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczO2ECI5wgI7TkCibi5VY2OAPFlAAui09nrD7tPnvfAz2PM3Z9xqkM7lnIF2FgdPd_zlaGQAibl4FIAWPWGdtYHZHSvcznxylzRvWUC74gLX_LbMEy9zYv0wSmOUCV6XGifNSHgsW02eJmWyqfibtKCv=w586-h714-s-no?authuser=0" alt="เครื่องตีเกลียว S7" X 18 V3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S7" X 18 V3</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczNWZLE4xKkxa-Kz-hL26LIzzGQjlzgxhlSU1jFqPWyBMXRofDNyG3Bo7vvV15Y9siPgNoVlmVIAd4KJCbWDMDrgpGrhHahUqNccQJGReLWefk5wFx8zuU8Md7s5P2FEFYWu67ODy1kL8QtsiSs10ks8=w560-h724-s-no?authuser=0" alt="เครื่องตีเกลียว S7" X 7 V3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องตีเกลียว S7" X 7 V3</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องไม่ได้ใช้งาน</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- เครื่องกรอ (Winding Machines) -->
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMLzIMAcW_YLwqcUbVid83yI2VUujGDI1kE_NFaCBHUvIjrlvmlvs0u5gBCgO-NfYkonLfHGAnIiV2JRA98kk3JELpTYzJehMzxyRrg7MMB6z9aM7vry8D0orcNL37iQRl8UzalWo70DizNw6_jJszL=w993-h655-s-no?authuser=0" alt="เครื่องกรอ W6" X 6L" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องกรอ W6" X 6L</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczNwJrAr1hHUJvEWVHFPzZDP3_1xmH505K0QbPi4ROWtzHmgm-rAuKZrV44t85tK4M-oYra7-yyfJUB6hB3c3LZ5CPDHr9mEujwmbHyTUTNLM5xWkzv7w2zKkeMcfOhtBLFGl4grrX6ZFGLF-Aaz3mag=w1024-h773-s-no?authuser=0" alt="เครื่องกรอ W10" X 4L" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องกรอ W10" X 4L</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMAbxNYdVRV3ZKrb2VNo8Fk443LRzBhXvfMV1iSpq0jM2DgjjgKqqOSIYxNCsLTmHxviR1M_GZnffj5ag3yapZkdBMVmdEjwBncDg12jA4TWmKOkk81whJobzRudyjJuLv_Z6bhos0OYiS5zQGzG2zG=w706-h471-s-no?authuser=0" alt="เครื่องกรอ W10" X 4 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องกรอ W10" X 4 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczNrMSwoLnUyFY3906-vT3agFjJXOC-02poM0bkUuJglJBwr_kDOEv8_4tDrLE8w39FcVWpkVOAaR5b3rVJuvkXQ5aroAkvwks4JdcPMlDAA_UzdFfadN5cRHUHY5Uqz3tdfYdL94Oddd-YrXruz88Mb=w693-h418-s-no?authuser=0" alt="เครื่องกรอ W4" X 6 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องกรอ W4" X 6 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOQ1RF_2--rA0YNTCthktVWWxmTHSvCmNdoG-7sfHHkXvgsqt1f29QUfy56FMc7m2SgARvEq4RS8OoBmPjkq1hSKG-5sZW4VLEgS955N_SdXhc271EA30MrkQCL2LzJ6nv_tD9KohD0VJc38oVgxof1=w1116-h694-s-no?authuser=0" alt="เครื่องกรอ W8" X 6 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องกรอ W8" X 6 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczP946N11cJ8A6Vcbv1vzJidpMOR77DsNse0d_MxShMcF8BEaXP6PzNNT6gW1QKd5_LMecxnPsOdGdZ3WvgMiHjOPzJA_WiGrTeTxWvS2vRXrYsT0Lk-9BuLrvOhWuVOO58EgN1V2iiauCm-oGWD0RF2=w1185-h803-s-no?authuser=0" alt="เครื่องกรอ W10" X 3 V3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องกรอ W10" X 3 V3</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+
+                <!-- เครื่องรีด (Extrusion Machines) -->
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOQy79IW1KCDV3V-L2_sxVC1inxDBPm0A9klbGnS40dovnqOkr4wKFf2kCmIg0pGDkigBqOtKOY3iITeuDXjWiJNpXuqGUYyzOz6bITC82EyYUSOlmpwietYXL737mgbPMc723WRxLJz05zjxojFeda=w484-h216-s-no?authuser=0" alt="เครื่องรีด EIWA V2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องรีด EIWA V2</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczNohdE7G7XAcIJ3mxV26TLNvg1UJGKH--EKcq9NU2Zdc41yMPoJLQ5d11ltSxnHCY6emC_zQX6mAl_cxOVWUK6RW0x1ULHozP87q5NlK0UvhEV6lm2xdjeFSQcXui9SZUdjZPiFohXyZe3JKNPoexVq=w1138-h802-s-no?authuser=0" alt="เครื่องรีด D16"-1 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องรีด D16" - 1 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องเสีย (มอเตอร์)</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOhGB2tTILFwahVprSMbuljm-atsynFYFLdbgfNNIx14XA-ZdQPiuF2JPYlnDI9eyk5evZFobVT3_-E8Vv3gmYB08DaECq21XhPXNMIg7yoDpUpgaPqb2hY6MhCUarljuxFdSVwEEfxhpqSmP81HQ5U=w448-h208-s-no?authuser=0" alt="เครื่องรีด KOCH 12" V5" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องรีด KOCH 12" V5</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <p class="mt-1 text-sm text-red-500">หมายเหตุ: เครื่องเสีย (ระบบไฟฟ้า)</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczPfwlFS4g6Xl1fEa_CYprUZhPtfqScu0cvzZCa3HlHDx6i8oyaBqS_h2bgj4YIkAAyuoJA_EtvJ-P3aEV30MWUUmlrzIC1dm3kO1z09_wwkzTJj8FIyMMyEt0X9r-QqUj8OseXNgrxm0pIkNSyRsp4z=w452-h202-s-no?authuser=0" alt="เครื่องรีดน้ำยา W 200 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องรีดน้ำยา W 200 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczOwuZIbRiyD1lyeQyYWlas36pcW0SpyT3xOEhYgKhD-v5JhfttvxhvFG9gKo3sSrvKaY6seChHJ8wTGQWqCVNlu4lVhvERH33gocUx68nZhka0PFMPxXol9j2HCbh6ttCieQYZxCO-yQ954DOHbtTMs=w702-h533-s-no?authuser=0" alt="เครื่องรีดน้ำยา W 300 V1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องรีดน้ำยา W 300 V1</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 1 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+                <div class="machine-card bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczNoMQErCw2H525aJQQzNv5W0pISw12gHs8AFik3oaLdIqWA7c-HC9I_lM7wc4_9rcSAAiHPaW-mZ1tJHO2ethdGyddgVL67um0a_kfDcuB8DYhc6fB4t0VpYmpMvd3wm1BaE3tdxRvXoPA1Hdpcwjkp=w1113-h809-s-no?authuser=0" alt="เครื่องรีดน้ำมัน W 307,308,309 V4" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="machine-name text-xl font-semibold text-gray-900">เครื่องรีดน้ำมัน W 307,308,309 V4</h2>
+                        <p class="mt-2 text-sm text-gray-600">จำนวน: 3 เครื่อง</p>
+                        <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                            ดูรายละเอียด
+                        </a>
+                    </div>
+                </div>
+
+            </main>
+
+            <!-- Footer Section -->
+            <footer class="mt-12 text-center text-gray-500 text-sm">
+                <p>&copy; 2024 บริษัท สยามไวร์โรพ จำกัด. สงวนลิขสิทธิ์</p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('machine-search');
+            const machineCards = document.querySelectorAll('.machine-card');
+
+            // Add an event listener to the search input field
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+
+                // Loop through each machine card and check if it matches the search query
+                machineCards.forEach(card => {
+                    const machineName = card.querySelector('.machine-name').textContent.toLowerCase();
+                    const machineStatus = card.textContent.toLowerCase();
+                    
+                    if (machineName.includes(query) || machineStatus.includes(query)) {
+                        card.style.display = 'block'; // Show the card
+                    } else {
+                        card.style.display = 'none'; // Hide the card
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
